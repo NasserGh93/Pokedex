@@ -1,0 +1,21 @@
+# Betriebssystem-Dateien
+.DS_Store
+.DS_store
+Thumbs.db
+
+# Lokale Umgebungsvariablen
+.env
+.env.*
+!.env.example
+
+# Abhängigkeiten und Build-Ausgaben
+node_modules/
+dist/
+build/
+
+# Logs und temporäre Editor-Dateien
+*.log
+*.swp
+*.swo
+*~
+.was_ist_eine_API.drawio
