@@ -7,18 +7,15 @@ Pokémon-Daten werden über die PokéAPI geladen.
 
 - `index.html`: HTML-Grundgerüst mit eingebundenem CSS und JavaScript.
 - `css/style.css`: Gestaltung der App.
-- `js/app.js`: Einstiegspunkt und spätere Steuerung der App.
+- `js/app.js`: Lädt Pikachu und zeigt die Pokémon-Karte an.
 - `js/api.js`: API-Abfragen.
 - `js/render.js`: Darstellung der Pokémon.
-- `assets/images/`: Eigene Bilder und Platzhalter.
-- `assets/icons/`: Icons und Logo.
-
-Die `.gitkeep`-Dateien sorgen dafür, dass Git auch leere Asset-Ordner erfasst.
+- `was_ist_eine_API.drawio`: Diagramm zum Projektaufbau.
 
 ## Lokal starten
 
 Öffne `index.html` über einen lokalen Webserver, zum Beispiel mit der
 VS-Code-Erweiterung Live Server. JavaScript-Module benötigen einen Webserver.
 
-Das Grundgerüst lädt noch keine Pokémon automatisch. In `js/app.js` steht ein
-auskommentiertes Beispiel für die erste API-Abfrage und Darstellung.
+Die App lädt beim Start Pikachu von der PokéAPI und zeigt seinen Namen an.
+Zum Abrufen der Daten ist eine Internetverbindung erforderlich.
